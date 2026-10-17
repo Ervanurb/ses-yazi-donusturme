@@ -6,3 +6,4 @@ faster-whisper
 # NVIDIA GPU için (CUDA Toolkit kurmadan):
 nvidia-cublas-cu12
 nvidia-cudnn-cu12==9.*
+gradio
