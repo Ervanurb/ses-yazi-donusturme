@@ -1,4 +1,4 @@
-# ses-yazi
+﻿# ses-yazi
 
 Sesi yazıya dönüştüren küçük bir araç. Konuşma tanıma için [faster-whisper](https://github.com/SYSTRAN/faster-whisper) kullanıyor. Whisper'dan önceki ses işleme adımlarını ise öğrenmek amacıyla elle yazdık.
 
@@ -13,7 +13,7 @@ Python 3.10–3.12 gerekir.
 
 ```bash
 py -3.12 -m venv .venv
-.venv\Scripts\pip install -r requirements.txt gradio
+.venv\Scripts\pip install -r requirements.txt
 ```
 
 NVIDIA ekran kartı varsa model otomatik olarak GPU'da çalışır. CUDA Toolkit kurmaya gerek yok, gerekli DLL'ler pip paketlerinden yükleniyor. GPU yoksa CPU'ya geçilir. Modeller ilk çalıştırmada indirilir (turbo yaklaşık 1,6 GB, small yaklaşık 500 MB).
